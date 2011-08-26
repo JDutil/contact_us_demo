@@ -1,0 +1,127 @@
+form.formtastic {
+  padding-bottom: 10px; }
+  form.formtastic p, form.formtastic li, form.formtastic fieldset ol li {
+    list-style-type: none;
+    margin: 10px 0px; }
+    form.formtastic p abbr, form.formtastic li abbr, form.formtastic fieldset ol li abbr {
+      color: red;
+      margin-left: 2px; }
+    form.formtastic p label, form.formtastic li label, form.formtastic fieldset ol li label {
+      width: 160px;
+      position: absolute;
+      text-align: right; }
+  form.formtastic li select {
+    margin-left: 170px; }
+  form.formtastic p.inline-errors {
+    color: red;
+    padding-left: 170px;
+    margin-top: 2px;
+    font-size: 10px; }
+  form.formtastic p.inline-hints {
+    padding-left: 170px;
+    margin-top: 2px;
+    font-size: 10px; }
+  form.formtastic p select {
+    width: 200px;
+    margin-left: 170px; }
+  form.formtastic li textarea {
+    width: 300px;
+    height: 150px;
+    margin-left: 170px; }
+  form.formtastic li.string input,
+  form.formtastic li.password input,
+  form.formtastic li.email input,
+  form.formtastic li.phone input,
+  form.formtastic li.numeric input {
+    width: 200px;
+    margin-left: 170px;
+    padding: 2px; }
+  form.formtastic li.boolean label {
+    margin-left: 170px;
+    clear: both;
+    position: relative; }
+    form.formtastic li.boolean label input[type=checkbox] {
+      margin-left: 0px;
+      margin-right: 10px; }
+  form.formtastic input[type=file] {
+    margin-left: 170px; }
+  form.formtastic input[type=submit], form.formtastic input[type=button] {
+    margin-left: 170px;
+    background: #7fbf4d;
+    background: -moz-linear-gradient(0% 100% 90deg, #63a62f, #7fbf4d);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7fbf4d), to(#63a62f));
+    border: 1px solid #63a62f;
+    border-bottom: 1px solid #5b992b;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
+    -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+    box-shadow: inset 0 1px 0 0 #96ca6d;
+    color: white;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 7px 10px 8px 10px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #4c9021; }
+  form.formtastic input[type=submit]:hover, form.formtastic input[type=button]:hover {
+    background: #76b347;
+    background: -moz-linear-gradient(0% 100% 90deg, #5e9e2e, #76b347);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#76b347), to(#5e9e2e));
+    border: 1px solid #63a62f;
+    border-bottom: 1px solid #5b992b;
+    -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
+    -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+    box-shadow: inset 0 1px 0 0 #8dbf67;
+    cursor: pointer;
+    text-shadow: 0 -1px 0 #4c9021; }
+  form.formtastic input[type=submit]:active, form.formtastic input[type=button]:active {
+    border: 1px solid #5b992b;
+    border-bottom: 1px solid #538c27;
+    -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; }
+  form.formtastic li.date fieldset ol li, form.formtastic li.time fieldset ol li, form.formtastic li.datetime fieldset ol li {
+    float: left;
+    width: auto;
+    margin: 0 0.3em 0 0; }
+    form.formtastic li.date fieldset ol li:first-child, form.formtastic li.time fieldset ol li:first-child, form.formtastic li.datetime fieldset ol li:first-child {
+      margin-left: 170px; }
+  form.formtastic li.date fieldset ol li label, form.formtastic li.time fieldset ol li label, form.formtastic li.datetime fieldset ol li label {
+    display: none; }
+  form.formtastic li.date fieldset ol li label input, form.formtastic li.time fieldset ol li label input, form.formtastic li.datetime fieldset ol li label input {
+    display: inline;
+    margin: 0;
+    padding: 0; }
+  form.formtastic li.date fieldset ol li select, form.formtastic li.time fieldset ol li select, form.formtastic li.datetime fieldset ol li select {
+    display: inline;
+    margin: 0;
+    padding: 0; }
+
+#notice_notice {
+  background: url(/images/true.png) 8px 50% no-repeat;
+  background-color: #dfffdf;
+  border: 1px solid #9fcf9f;
+  color: #005f00;
+  padding: 4px 4px 4px 30px;
+  margin: 0px 0px 10px 0px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+#notice_error, #notice_alert {
+  background: url(/images/exclamation.png) 8px 50% no-repeat;
+  background-color: #ffe3e3;
+  border: 1px solid #dd0000;
+  color: #880000;
+  padding: 4px 4px 4px 30px;
+  margin: 0px 0px 10px 0px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+.content {
+  width: 960px;
+  margin: 0px auto; }

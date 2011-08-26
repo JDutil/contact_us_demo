@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ContactUs RubyGem Demo - A simple Contact Form for Rails 3+ Applications</title>
+    <%= stylesheet_link_tag :all %>
+    <%= javascript_include_tag :defaults %>
+    <%= csrf_meta_tag %>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Contact Us Demo</h1>
+      <p>The ContactUs gem provides a quick and easy solution for adding a contact form to your Rails applications.  The contact form is built with Formtastic in order to hook into your custom Formtastic stylesheets.  <a href="http://github.com/jdutil/contact_us">Click here</a> to read more and view the installation instructions.</p>
+      <h2>Requirements</h2>
+      <ul>
+        <li>Rails >= 3</li>
+        <li>Formtastic >= 1.2.0</li>
+      </ul>
+      <h2>The following is an example of the contact form in action:</h2>
+      <% flash.each do |key, msg| %>
+        <%= content_tag :div, msg, :class => [key, " message"], :id => "notice_#{key}" %>
+      <% end %>
+      <%= yield %>
+    </div>
+  </body>
+</html>
