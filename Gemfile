@@ -8,7 +8,13 @@ gem 'rails', '3.0.10'
 gem 'contact_us', '~> 0.1.2'
 gem 'formtastic'
 gem 'sass'
-gem 'pg'
+
+group :production do
+  gem 'pg'
+end
+group :development, :test do
+  gem 'sqlite3'
+end
 
 # Use unicorn as the web server
 # gem 'unicorn'
