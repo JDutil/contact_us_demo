@@ -1,4 +1,4 @@
-== Contact Us Demo
+# Contact Us Demo
 
 [![Build Status](https://secure.travis-ci.org/jdutil/contact_us_demo.png)](http://travis-ci.org/jdutil/contact_us_demo)
 
