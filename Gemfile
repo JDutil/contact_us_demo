@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.20'
+gem 'rails', '3.2.12'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'contact_us', '~> 0.1.2'
+gem 'contact_us', '~> 0.4.0'
 gem 'formtastic'
 gem 'sass'
 
@@ -36,7 +36,7 @@ end
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
-  gem "capybara", "~> 0.4.1"
-  gem "rspec-rails", "~> 2.6"
-  gem "simplecov", "~> 0.4.2"
+  gem "capybara", "~> 1.0"
+  gem "rspec-rails", "~> 2.10"
+  gem "simplecov"
 end
