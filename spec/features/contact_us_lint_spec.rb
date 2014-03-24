@@ -16,7 +16,7 @@ describe 'Contact Us page' do
   end
 
   it 'displays default contact form properly', js:true do
-    visit contact_us_path
+    visit main_app.contact_us_path
     within "form#new_contact_us_contact" do
       page.should have_selector "input#contact_us_contact_email"
       page.should have_selector "textarea#contact_us_contact_message"

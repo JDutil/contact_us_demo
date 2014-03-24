@@ -1,15 +1,15 @@
 source 'https://rubygems.org'
 ruby '2.1.1'
 
-gem 'rails', '~> 3.2.16'
+gem 'rails', '~> 4.0.4'
 gem 'rails_12factor'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'contact_us', '~> 0.4.0'
+gem 'contact_us', '~> 0.5.1'
 gem 'formtastic'
-gem 'sass'
+gem 'sass-rails', '~> 4.0.2'
 
 group :production do
   gem 'pg'
@@ -38,7 +38,8 @@ end
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
-  gem "capybara", "~> 1.0"
-  gem "rspec-rails", "~> 2.10"
+  gem "capybara", '~> 2.2.1'
+  gem "rspec-rails", "~> 2.14.2"
+  gem 'selenium-webdriver'
   gem "simplecov"
 end
