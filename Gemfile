@@ -7,7 +7,7 @@ gem 'rails_12factor'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'contact_us', '~> 0.5.1'
+gem 'contact_us', '~> 0.5.2'
 gem 'formtastic'
 gem 'sass-rails', '~> 4.0.2'
 
