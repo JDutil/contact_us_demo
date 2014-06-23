@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.1'
+ruby '2.1.2'
 
 gem 'rails', '~> 4.0.4'
 gem 'rails_12factor'
@@ -7,7 +7,7 @@ gem 'rails_12factor'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'contact_us', '~> 0.5.2'
+gem 'contact_us', '~> 0.5.3'
 gem 'formtastic'
 gem 'sass-rails', '~> 4.0.2'
 
