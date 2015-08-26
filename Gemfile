@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.1.5'
+ruby '2.2.3'
 
-gem 'rails', '~> 4.1.8'
+gem 'rails', '~> 4.1.10'
 gem 'rails_12factor'
 
 # Bundle edge Rails instead:
@@ -38,8 +38,8 @@ end
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
-  gem "capybara", '~> 2.2.1'
-  gem "rspec-rails", "~> 2.14.2"
+  gem "capybara"
+  gem "rspec-rails", "~> 2.99"
   gem 'selenium-webdriver'
   gem "simplecov"
 end
